@@ -14,11 +14,11 @@ The file of the virtual hosts of the Apache server should be something like this
 ```
 <virtualhost *:80>
      serveradmin  david@teluria.es
-     documentroot "/users/david/sites/github/api-server"
+     documentroot "/users/david/sites/github/ieru-api-server"
      servername   edunet.dev
      serveralias  www.edunet.dev
 
-     <directory /users/david/sites/github/api-server>
+     <directory /users/david/sites/github/ieru-api-server>
          options indexes followsymlinks multiviews
          allowoverride all
          order allow,deny
