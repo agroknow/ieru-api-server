@@ -35,6 +35,7 @@ Clone the Github project of the api server to a folder.
 ```
 ~/Sites/github $> git clone https://github.com/ieru/ieru-api-server
 ```
+
 **Install the APIs**
 
 Clone the Github project of the APIs to a directory in the server.
@@ -50,7 +51,9 @@ Create symbolic links inside the ieru-api-server/vendor/Ieru to the REST engine 
 **Database installation**
 
 Import to the local server the ieru_organic_oauth.sql and ieru_organic_analytics.sql files.
-Success!
+
+**Success!**
+
 Check that everything is working accessing the following URL (change the server to the localhost or any other you are using):
 ```
 http://www.api.dev/api/analytics/translate?text=potato&from=en&to=es
