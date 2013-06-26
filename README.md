@@ -42,7 +42,7 @@ Clone the Github project of the APIs to a directory in the server.
 ~/Sites/github $> git clone https://github.com/ieru/ieru-rest-engine
 ~/Sites/github $> git clone https://github.com/ieru/ieru-oe-apis
 ```
-Create symbolic links inside the ieru-api-server/vendor/Ieru to the REST engine and APIs
+Create symbolic links inside the ieru-api-server/vendor/Ieru to the REST engine and APIs (if the three github projects are in the folders mentioned before, the symbolic link should already be in the Ieru folder and linking to the engine and APIs folders, so you could omit this step).
 ```
 ~/Sites/github/ieru-api-server/vendor/Ieru $> ln -s ../../../ieru-rest-engine/src/Ieru/Restengine/ Restengine
 ~/Sites/github/ieru-api-server/vendor/Ieru $> ln -s ../../../ieru-oe-apis/Ieru/Ieruapis/ Ieruapis
