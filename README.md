@@ -42,4 +42,12 @@ Run composer install
 ~/Sites/github/ieru-api-server $> composer install
 ```
 
+**Install databases**
+
+Install the database dumps ieru_organic_analytics.sql and ieru_organic_oauth.sql in the local MySQL database.
+
+**Configure api.php file**
+
+For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file. Do not include "http://", just the server name. Useful too for development and preproduction machines.
+
 **Done!**
