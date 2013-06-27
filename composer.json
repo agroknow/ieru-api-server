@@ -1,7 +1,7 @@
 {
 	"require": {
 		"ieru/ieru-rest-engine": "*",
-		"ieru/ieru-oe-apis": "*",
+		"ieru/ieru-oe-apis": "*"
 	},
 	"autoload": {
 		
