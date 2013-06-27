@@ -1,5 +1,6 @@
 <?php
-// Autoload files with the Symfony autoloader, according to PSR-0
+// Autoload files with Composer.json (remember to run "composer install")
+// after cloning the project from Github
 require_once( 'vendor/autoload.php' );
 
 // Allowed domain for cross domain javascript requests
