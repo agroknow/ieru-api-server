@@ -1,7 +1,6 @@
 <?php
 // Autoload files with the Symfony autoloader, according to PSR-0
-require_once( 'vendor/Symfony/Component/ClassLoader.php' );
-$loader = new \Symfony\Component\ClassLoader\ClassLoader();
+require_once( 'vendor/autoload.php' );
 
 // register classes with namespaces
 $loader->addPrefix( 'Ieru\\', __DIR__.'/vendor' );

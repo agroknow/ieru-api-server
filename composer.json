@@ -1,8 +1,10 @@
 {
 	"require": {
-		"ieru/ieru-rest-engine": "1.*"
+		"ieru/ieru-rest-engine": "*",
+		"ieru/ieru-oe-apis": "*",
 	},
 	"autoload": {
+		
 	},
 	"minimum-stability": "dev"
 }
