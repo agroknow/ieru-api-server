@@ -9,6 +9,7 @@ For installing the Analytics Service, a server with the following tools installe
 * Apache
 * Apache modules: mod_rewrite
 * Git
+* Composer (http://getcomposer.org/download/)
 
 The file of the virtual hosts of the Apache server should be something like this: 
 ```
