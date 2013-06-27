@@ -51,3 +51,10 @@ Install the database dumps ieru_organic_analytics.sql and ieru_organic_oauth.sql
 For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file. Do not include "http://", just the server name. Useful too for development and preproduction machines.
 
 **Done!**
+
+Just check that everything works with a few API requests:
+```
+http://api.dev/api/analytics/translate/providers
+http://api.dev/api/analytics/translate/languages
+http://api.dev/api/analytics/translate?text=potato&from=en&to=es
+```
