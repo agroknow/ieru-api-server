@@ -51,7 +51,7 @@ On each API directory there is a Config.php file. In there you can change the us
 
 **Configure api.php file**
 
-For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file, but by default it allows Ajax calls from any serveer. Include "http://". Useful too for development and preproduction machines.
+For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file, but by default it allows Ajax calls from any server. Include "http://" in the server name. Useful too for development and preproduction machines.
 
 **Done!**
 
