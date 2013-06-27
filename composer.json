@@ -1,6 +1,6 @@
 {
 	"require": {
-		"ieru/ieru-rest-engine": "1.*",
+		"ieru/ieru-rest-engine": "1.*"
 	},
 	"autoload": {
 	},
