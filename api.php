@@ -3,7 +3,7 @@
 require_once( 'vendor/autoload.php' );
 
 // Allowed domain for cross domain javascript requests
-define( 'XDOMAIN_ALLOWED_SERVER', 'www.edunet.php' );
+define( 'XDOMAIN_ALLOWED_SERVER', 'www.edunet.dev' );
 
 // Start ieru restengine, with api URI identifier and API URI namespace
 $api = new \Ieru\Restengine\Engine\Engine( 'api', 'Ieru\Ieruapis' );
