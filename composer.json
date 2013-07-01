@@ -15,7 +15,9 @@
     ],
 	"require": {
 		"ieru/ieru-rest-engine": "*",
-		"ieru/ieru-oe-apis": "*"
+		"ieru/ieru-oe-apis": "*",
+		"illuminate/database": "*",
+		"dhorrigan/capsule": "*"
 	},
 	"autoload": {
 		
