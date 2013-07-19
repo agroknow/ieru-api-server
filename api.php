@@ -1,4 +1,7 @@
 <?php
+// Remove error reporting (uncomment in production environment)
+//error_reporting(0);
+
 // Autoload files with Composer.json (remember to run "composer install")
 // after cloning the project from Github
 require_once( 'vendor/autoload.php' );
@@ -7,10 +10,44 @@ require_once( 'vendor/autoload.php' );
 // Please, change * for your server name, including http://
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
+define( 'API_SERVER', 'http://api.dev' );
 
-// Remove error reporting (uncomment in production environment)
-//error_reporting(0);
+// Define database connections
+$databases = array ( 
+    'resources' => array( 
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'ieru_organic_resources',
+        'username'  => 'root',
+        'password'  => '',
+        'collation' => 'utf8_general_ci',
+        'prefix'    => '',
+        'charset'   => 'utf8'
+    ),
+
+    'oauth' => array( 
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'ieru_organic_oauth',
+        'username'  => 'root',
+        'password'  => '',
+        'collation' => 'utf8_general_ci',
+        'prefix'    => '',
+        'charset'   => 'utf8'
+    ),
+
+	'analytics' => array( 
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'ieru_organic_analytics',
+        'username'  => 'root',
+        'password'  => '',
+        'collation' => 'utf8_general_ci',
+        'prefix'    => '',
+        'charset'   => 'utf8'
+	)
+);
 
 // Start ieru restengine, with api URI identifier and API URI namespace
-$api = new \Ieru\Restengine\Engine\Engine( 'api', 'Ieru\Ieruapis' );
+$api = new \Ieru\Restengine\Engine\Engine( 'api', 'Ieru\Ieruapis', $databases );
 $api->start();

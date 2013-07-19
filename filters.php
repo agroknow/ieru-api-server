@@ -175,5 +175,83 @@ return array(
 		'es'=>'padre',
 		'en'=>'parent',
 	),
+	'te'=>array(
+		'en'=>'Telugu',
+	),
+	'library'=>array(
+		'en'=>'library',
+	),
+	'educational administration'=>array(
+		'en'=>'educational administration',
+	),
+	'application/msword'=>array(
+		'en'=>'application/msword',
+	),
+	'it'=>array(
+		'en'=>'Italian',
+	),
+	'sv'=>array(
+		'en'=>'Swedish',
+	),
+	'ru'=>array(
+		'en'=>'Russian',
+	),
+	'fi'=>array(
+		'en'=>'Finnish',
+	),
+	'nl'=>array(
+		'en'=>'Dutch',
+	),
+	'ro'=>array(
+		'en'=>'Romanian',
+	),
+	'da'=>array(
+		'en'=>'Danish',
+	),
+	'cs'=>array(
+		'en'=>'Czech',
+	),
+	'pl'=>array(
+		'en'=>'Polish',
+	),
+	'sk'=>array(
+		'en'=>'Slovak',
+	),
+	'ar'=>array(
+		'en'=>'Arabic',
+	),
+	'cy'=>array(
+		'en'=>'Welsh',
+	),
+	'ja'=>array(
+		'en'=>'Japanese (ja)',
+	),
+	'no'=>array(
+		'en'=>'Norwegian',
+	),
+	'xml'=>array(
+		'en'=>'XML',
+	),
+	'application/x-shockwave-flash'=>array(
+		'en'=>'application/x-shockwave-flash',
+	),
+	'video/mpeg'=>array(
+		'en'=>'video/mpeg',
+	),
+	'video/avi'=>array(
+		'en'=>'video/avi',
+	),
+	'video/mp4'=>array(
+		'en'=>'video/mp4',
+	),
+	'video/quicktime'=>array(
+		'en'=>'video/quicktime',
+	),
+	'author'=>array(
+		'en'=>'author',
+	),
+	'counselor'=>array(
+		'en'=>'counselor',
+	),
 
 );

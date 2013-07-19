@@ -1,5 +1,6 @@
 .DS_Store
 vendor
 composer.lock
+_xml
+_xml_full
 xml
-xml_full
