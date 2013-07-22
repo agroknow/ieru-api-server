@@ -4,11 +4,13 @@ return array(
 		''=>'',
 		'es'=>'Educación superior',
 		'en'=>'higher education',
+		'el'=>'τριτοβάθμιας εκπαίδευσης',
 	),
 	'vocational education'=>array(
 		''=>'',
 		'es'=>'Educación vocacional',
 		'en'=>'vocational education',
+		'el'=>'επαγγελματικής εκπαίδευσης',
 	),
 	'compulsory education'=>array(
 		''=>'',
@@ -49,6 +51,7 @@ return array(
 		''=>'',
 		'es'=>'otros',
 		'en'=>'other',
+		'el'=>'άλλα',
 	),
 	'fr'=>array(
 		''=>'',
@@ -59,6 +62,7 @@ return array(
 		''=>'',
 		'es'=>'Inglés',
 		'en'=>'English',
+		'el'=>'Αγγλικά',
 	),
 	'de'=>array(
 		''=>'',
@@ -69,11 +73,13 @@ return array(
 		''=>'',
 		'es'=>'Oriya',
 		'en'=>'Oriya',
+		'el'=>'Οριγικό',
 	),
 	'hi'=>array(
 		''=>'',
 		'es'=>'Hindi',
 		'en'=>'Hindi',
+		'el'=>'Χίντι',
 	),
 	'el'=>array(
 		''=>'',
@@ -89,6 +95,7 @@ return array(
 		''=>'',
 		'es'=>'Kannada',
 		'en'=>'Kannada',
+		'el'=>'Κανάντα',
 	),
 	'pt'=>array(
 		''=>'',
@@ -114,6 +121,7 @@ return array(
 		''=>'',
 		'es'=>'texto/html',
 		'en'=>'text/html',
+		'el'=>'κείμενο/html',
 	),
 	'image/jpeg'=>array(
 		''=>'',
@@ -154,11 +162,13 @@ return array(
 		''=>'',
 		'es'=>'alumno',
 		'en'=>'learner',
+		'el'=>'μαθητή',
 	),
 	'manager'=>array(
 		''=>'',
 		'es'=>'Gerente',
 		'en'=>'manager',
+		'el'=>'Διευθυντής',
 	),
 	'teacher'=>array(
 		''=>'',
@@ -177,6 +187,7 @@ return array(
 	),
 	'te'=>array(
 		'en'=>'Telugu',
+		'el'=>'Τελουγκουικά',
 	),
 	'library'=>array(
 		'en'=>'library',
