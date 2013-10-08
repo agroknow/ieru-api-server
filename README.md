@@ -4,35 +4,23 @@ IERU API Server
 **Requirements**
 
 For installing the Analytics Service, a server with the following tools installed is required:
-* PHP 5.4
+* PHP 5.3
 * MySQL 5.5
 * Apache
 * Apache modules: mod_rewrite
 * Git
 * Composer (http://getcomposer.org/download/)
 
-The file of the virtual hosts of the Apache server should be something like this: 
-```
-<virtualhost *:80>
-     serveradmin  david@teluria.es
-     documentroot "/users/david/sites/github/ieru-api-server"
-     servername   api.dev
-     serveralias  www.api.dev
-
-     <directory /users/david/sites/github/ieru-api-server>
-         options indexes followsymlinks multiviews
-         allowoverride all
-         order allow,deny
-         allow from all
-     </directory>
-</virtualhost>
-```
-
 Installation
 ------------
 **Install the REST engine**
 
-Clone the Github project of the api server to a folder.
+Clone the Github project of the api server to the default folder of the web server, or the virtual host you are going to use for this project.
+
+The installation only supports installing it in the root folder of the web server (e.g: http://localhost/).
+
+The api will be accessed using: http://localhost/api/analytics/translate (this is an example URL, not a functional one).
+
 ```
 ~/Sites/github $> git clone https://github.com/ieru/ieru-api-server
 ```
