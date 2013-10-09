@@ -12,7 +12,7 @@ require_once( 'vendor/autoload.php' );
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
 define( 'API_SERVER', 'http://localhost' );
-define( 'API_PATH', '/' );
+define( 'API_PATH', '/api/api.php/' );
 
 // Define database connections
 $databases = array ( 
@@ -51,5 +51,5 @@ $databases = array (
 );
 
 // Start ieru restengine, with api URI identifier and API URI namespace
-$api = new \Ieru\Restengine\Engine\Engine( 'api.php', 'Ieru\Ieruapis', $databases );
+$api = new \Ieru\Restengine\Engine\Engine( 'Ieru\Ieruapis', $databases );
 $api->start();
