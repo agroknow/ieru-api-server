@@ -12,6 +12,7 @@ require_once( 'vendor/autoload.php' );
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
 define( 'API_SERVER', 'http://localhost' );
+define( 'API_PATH', '/' );
 
 // Define database connections
 $databases = array ( 
