@@ -69,6 +69,8 @@ Install the database dumps ieru_organic_analytics.sql and ieru_organic_oauth.sql
 
 In the api.php file you can change the access data for each database needed on the project.
 
+Also change the your server name for the API.
+
 For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file, but by default it allows Ajax calls from any server. Include "http://" in the server name. Useful too for development and preproduction machines.
 
 **Done!**
