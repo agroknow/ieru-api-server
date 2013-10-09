@@ -33,7 +33,8 @@ Be sure to have installed the following:
 
 Please check with your system administrator that you have all the previous libraries installed. We can not provide help on installing this libraries are they are not related with the API.
 
-**Install the REST engine**
+Install the REST engine
+-----------------------
 
 Clone the Github project of the api server to the default folder of the web server, or the virtual host you are going to use for this project.
 
