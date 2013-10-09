@@ -1,6 +1,7 @@
 <?php
 // Remove error reporting (uncomment in production environment)
-//error_reporting(0);
+error_reporting(0);
+ini_set('display_errors', '1');
 
 // Autoload files with Composer.json (remember to run "composer install")
 // after cloning the project from Github
@@ -10,7 +11,7 @@ require_once( 'vendor/autoload.php' );
 // Please, change * for your server name, including http://
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
-define( 'API_SERVER', 'http://api.dev' );
+define( 'API_SERVER', 'http://localhost' );
 
 // Define database connections
 $databases = array ( 
@@ -49,5 +50,5 @@ $databases = array (
 );
 
 // Start ieru restengine, with api URI identifier and API URI namespace
-$api = new \Ieru\Restengine\Engine\Engine( 'api', 'Ieru\Ieruapis', $databases );
+$api = new \Ieru\Restengine\Engine\Engine( 'api.php', 'Ieru\Ieruapis', $databases );
 $api->start();
