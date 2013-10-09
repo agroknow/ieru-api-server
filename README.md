@@ -23,7 +23,7 @@ Else, you can request a zip file with the contents of the API Server, but as thi
 
 Installation on Ubuntu 13.04
 ----------------------------
-Be sure to have installed the following:
+Be sure to have installed the following (be sure to have run >sudo apt-get update):
 * Apache2 (sudo apt-get install apache2)
 * PHP5 (sudo apt-get install php5-cli)
 * PHP5 library for Apache2 (sudo apt-get install libapache2-mod-php5)
