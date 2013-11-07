@@ -38,8 +38,6 @@ Install the REST engine
 
 Clone the Github project of the api server to the default folder of the web server, or the virtual host you are going to use for this project.
 
-The installation only supports installing it in the root folder of the web server (e.g: http://localhost/).
-
 The api will be accessed using: http://localhost/api/analytics/translate (this is an example URL, not a functional one).
 
 ```
