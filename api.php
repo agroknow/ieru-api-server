@@ -1,5 +1,5 @@
 <?php
-// Remove error reporting (uncomment in production environment)
+// Remove error reporting (comment in production environment)
 error_reporting(0);
 ini_set('display_errors', '1');
 

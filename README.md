@@ -23,7 +23,7 @@ Else, you can request a zip file with the contents of the API Server, but as thi
 
 Installation on Ubuntu 13.04
 ----------------------------
-Be sure to have installed the following:
+Be sure to have installed the following (be sure to have run >sudo apt-get update):
 * Apache2 (sudo apt-get install apache2)
 * PHP5 (sudo apt-get install php5-cli)
 * PHP5 library for Apache2 (sudo apt-get install libapache2-mod-php5)
@@ -37,8 +37,6 @@ Install the REST engine
 -----------------------
 
 Clone the Github project of the api server to the default folder of the web server, or the virtual host you are going to use for this project.
-
-The installation only supports installing it in the root folder of the web server (e.g: http://localhost/).
 
 The api will be accessed using: http://localhost/api/analytics/translate (this is an example URL, not a functional one).
 
