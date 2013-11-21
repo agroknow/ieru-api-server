@@ -11,8 +11,8 @@ require_once( 'vendor/autoload.php' );
 // Please, change * for your server name, including http://
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
-define( 'API_SERVER', 'http://localhost' );
-define( 'API_PATH', '/api.php/' );
+define( 'API_SERVER', 'http://api.dev' );
+define( 'API_PATH', '/api/' );
 
 // Define database connections
 $databases = array ( 
@@ -47,7 +47,18 @@ $databases = array (
         'collation' => 'utf8_general_ci',
         'prefix'    => '',
         'charset'   => 'utf8'
-	)
+	),
+
+    'navigational' => array( 
+        'driver'    => 'mysql',
+        'host'      => 'localhost',
+        'database'  => 'ieru_organic_resources_navigational',
+        'username'  => 'root',
+        'password'  => '',
+        'collation' => 'utf8_general_ci',
+        'prefix'    => '',
+        'charset'   => 'utf8'
+    )
 );
 
 // Start ieru restengine, with api URI identifier and API URI namespace
