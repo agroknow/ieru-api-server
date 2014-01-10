@@ -5,3 +5,5 @@ _xml
 _xml_full
 xml
 filters.php
+access_log
+error_log
