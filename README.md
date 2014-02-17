@@ -67,7 +67,16 @@ Install the database dumps ieru_organic_analytics.sql and ieru_organic_oauth.sql
 
 In the api.php file you can change the access data for each database needed on the project.
 
-Also change the server name for the API (API_SERVER constant) and the location of the api.php file (API_PATH constant, keep slashes at begining and end of the constant, and it is '/api.php/' by default). The API_PATH, if you install the API in a subdirectory called 'api' would be '/api/api.php/'.
+The constants API_SERVER and API_PATH have to be set in the following way.
+The API_SERVER constant will contain the root URL of your web servier (e.g. "http://localhost" or "http://www.yourserver.com") without the ending slash.
+While, the API_PATH has to contain the complete path leading to the "api.php" file including the name of the file itself and a final slash ("api.php/").
+For instance, if your "api.php" file is placed at the following URL:
+
+"http://www.yourserver.com/api_engine/service/api.php"
+
+your constant have to be set in this way:
+API_SERVER: "http://www.yourserver.com"
+API_PATH: "/api_engine/service/api.php/"
 
 For allowing javascript cross domain calls (e.g: requesting API from the organic edunet web app), you can configure the value of the constant XDOMAIN_ALLOWED_SERVER located in the php file, but by default it allows Ajax calls from any server. Include "http://" in the server name. Useful too for development and preproduction machines.
 
