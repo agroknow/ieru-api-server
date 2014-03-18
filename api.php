@@ -11,45 +11,45 @@ require_once( 'vendor/autoload.php' );
 // Please, change * for your server name, including http://
 // It distinguises between www.yourserver.com and yourserver.com
 define( 'XDOMAIN_ALLOWED_SERVER', '*' );
-define( 'API_SERVER', 'http://api.dev' );
+define( 'API_SERVER', 'http://ak.oeanalytic-dev.agroknow.gr' );
 define( 'API_PATH', '/api/' );
 
 // Define database connections
-$databases = array ( 
-    'resources' => array( 
+$databases = array (
+    'resources' => array(
         'driver'    => 'mysql',
         'host'      => 'localhost',
-        'database'  => 'ieru_organic_resources',
+        'database'  => 'ak_organic_resources',
         'username'  => 'root',
-        'password'  => '',
+        'password'  => 'r00t!',
         'collation' => 'utf8_general_ci',
         'prefix'    => '',
         'charset'   => 'utf8'
     ),
 
-    'oauth' => array( 
+    'oauth' => array(
         'driver'    => 'mysql',
         'host'      => 'localhost',
-        'database'  => 'ieru_organic_oauth',
+        'database'  => 'ak_organic_oauth',
         'username'  => 'root',
-        'password'  => '',
+        'password'  => 'r00t!',
         'collation' => 'utf8_general_ci',
         'prefix'    => '',
         'charset'   => 'utf8'
     ),
 
-	'analytics' => array( 
+	'analytics' => array(
         'driver'    => 'mysql',
         'host'      => 'localhost',
-        'database'  => 'ieru_organic_analytics',
+        'database'  => 'ak_organic_analytics',
         'username'  => 'root',
-        'password'  => '',
+        'password'  => 'r00t!',
         'collation' => 'utf8_general_ci',
         'prefix'    => '',
         'charset'   => 'utf8'
 	),
 
-    'navigational' => array( 
+    'navigational' => array(
         'driver'    => 'mysql',
         'host'      => 'localhost',
         'database'  => 'ieru_organic_resources_navigational',
